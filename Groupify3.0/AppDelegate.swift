@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Groupify3.0
+//  Groupify
 //
 //  Created by Masik on 1/16/19.
 //  Copyright © 2019 District196.org. All rights reserved.

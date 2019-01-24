@@ -1,20 +1,19 @@
 //
-//  SecondViewController.swift
-//  Groupify3.0
+//  PersonViewController.swift
+//  Groupify
 //
-//  Created by Masik on 1/16/19.
+//  Created by Corey Gallagher on 1/17/19.
 //  Copyright © 2019 District196.org. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class PersonViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    
 }
-

@@ -1,6 +1,6 @@
 //
-//  FirstViewController.swift
-//  Groupify3.0
+//  GroupViewController.swift
+//  Groupify
 //
 //  Created by Masik on 1/16/19.
 //  Copyright © 2019 District196.org. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class GroupViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

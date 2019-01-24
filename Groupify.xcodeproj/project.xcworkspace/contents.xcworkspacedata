@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Groupify3.0.xcodeproj">
+      location = "self:/Users/coreygallagher/Documents/Groupify3.0/Groupify.xcodeproj">
    </FileRef>
 </Workspace>
