@@ -18,7 +18,7 @@
 		A233537221F0E98700BEA58E /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233537121F0E98600BEA58E /* NumberViewController.swift */; };
 		A233537421F0E9B600BEA58E /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233537321F0E9B600BEA58E /* PersonViewController.swift */; };
 		A233537621F0EA1C00BEA58E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233537521F0EA1C00BEA58E /* StartViewController.swift */; };
-		A2B2AB6D21F8D3D200D1C1F2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2AB6C21F8D3D200D1C1F2 /* CollectionViewCell.swift */; };
+		A27B0C17220785F20022C8AA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B0C16220785F20022C8AA /* CollectionViewCell.swift */; };
 		A2E6D9BE21F92FF800A06F2B /* Screen Shot 2019-01-23 at 5.27.00 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E6D9BD21F92FF800A06F2B /* Screen Shot 2019-01-23 at 5.27.00 PM.png */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +57,7 @@
 		A233537121F0E98600BEA58E /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
 		A233537321F0E9B600BEA58E /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		A233537521F0EA1C00BEA58E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		A2B2AB6C21F8D3D200D1C1F2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A27B0C16220785F20022C8AA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		A2E6D9BD21F92FF800A06F2B /* Screen Shot 2019-01-23 at 5.27.00 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2019-01-23 at 5.27.00 PM.png"; path = "../../../Desktop/Screen Shot 2019-01-23 at 5.27.00 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +115,7 @@
 				A233537121F0E98600BEA58E /* NumberViewController.swift */,
 				A233537321F0E9B600BEA58E /* PersonViewController.swift */,
 				A233537521F0EA1C00BEA58E /* StartViewController.swift */,
-				A2B2AB6C21F8D3D200D1C1F2 /* CollectionViewCell.swift */,
+				A27B0C16220785F20022C8AA /* CollectionViewCell.swift */,
 				6856AD7421EF92A300F65CD8 /* Main.storyboard */,
 				6856AD7721EF92A500F65CD8 /* Assets.xcassets */,
 				6856AD7921EF92A500F65CD8 /* LaunchScreen.storyboard */,
@@ -278,7 +278,7 @@
 				A233537421F0E9B600BEA58E /* PersonViewController.swift in Sources */,
 				6856AD7321EF92A300F65CD8 /* GroupViewController.swift in Sources */,
 				A233537221F0E98700BEA58E /* NumberViewController.swift in Sources */,
-				A2B2AB6D21F8D3D200D1C1F2 /* CollectionViewCell.swift in Sources */,
+				A27B0C17220785F20022C8AA /* CollectionViewCell.swift in Sources */,
 				6856AD6F21EF92A300F65CD8 /* AppDelegate.swift in Sources */,
 				6856AD7121EF92A300F65CD8 /* HomeViewController.swift in Sources */,
 				A233537621F0EA1C00BEA58E /* StartViewController.swift in Sources */,

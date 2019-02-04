@@ -10,25 +10,34 @@ import UIKit
 
 class StartViewController: UIViewController {
     
+    let people = ["Corey", "Nathan", "Gallagher", "Steven" , "John", "Barber", "Maverick", "Hedlund", "Louie", "Reichenbach", "LeBron", "James", "Maxim", "Zagrebelney"]
+    
+    @IBOutlet weak var CollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    @objc func buttonAction(sender: UIButton!) {
-        print("Button tapped")
-    }
-    @IBAction func NewClassButton(_ sender: Any) {
-        let button = UIButton()
-        button.frame = CGRect(x: self.view.frame.size.width - 210, y: 140, width: 415, height: 99)
-        button.backgroundColor = UIColor.gray
-        button.setTitle("Class 1", for: .normal)
-        button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
-        self.view.addSubview(button)
         
-       
+         CollectionView.dataSource = self
+        // Do any additional setup after loading the view, typically from a nib.
+        
     }
+
     @IBAction func toHomeButton(_ sender: Any) {
         performSegue(withIdentifier: "toHome", sender: self)
     }
+    
+}
+
+extension StartViewController : UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return people.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CollectionViewCell
+        cell.CellText.text = people[indexPath.row]
+        return cell
+    }
+    
     
 }
