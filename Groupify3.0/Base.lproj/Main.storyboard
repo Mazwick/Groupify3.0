@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Title-->
+        <!--Home View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Groupify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Home View Controller" id="9pv-A4-QxB" customClass="HomeViewController" customModule="Groupify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,9 +35,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                         <state key="normal" title="Button" image="left-arrow"/>
                                         <connections>
-                                            <action selector="ToStart:" destination="9pv-A4-QxB" eventType="touchUpInside" id="MkF-iE-6Oq"/>
-                                            <action selector="ToStartButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="txn-nZ-pGg"/>
-                                            <segue destination="Gmd-Qe-umF" kind="show" identifier="ToStart" id="fLs-5Q-8CI"/>
+                                            <action selector="backArrowPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="sHD-8d-kRC"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -49,10 +47,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="house-outline" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" title="Title" id="sdI-bs-EQm"/>
+                    <connections>
+                        <segue destination="Gmd-Qe-umF" kind="show" identifier="backToStartHome" id="BPY-Bj-bHB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="988" y="-427"/>
+            <point key="canvasLocation" x="-2531" y="361"/>
         </scene>
         <!--Person View Controller-->
         <scene sceneID="5uc-Gc-zos">
@@ -68,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ei1-Gd-xBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="432" y="1134"/>
+            <point key="canvasLocation" x="-35" y="361"/>
         </scene>
         <!--Number View Controller-->
         <scene sceneID="LOz-5a-qiF">
@@ -84,12 +85,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VCN-bI-Nmk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-470" y="1020"/>
+            <point key="canvasLocation" x="-859" y="361"/>
         </scene>
         <!--Group View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" userLabel="Group View Controller" customClass="SecondViewController" customModule="Groupify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" userLabel="Group View Controller" customClass="GroupViewController" customModule="Groupify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.64028776978421" y="359.89208633093529"/>
+            <point key="canvasLocation" x="-1709" y="361"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="FrB-6s-rO3">
@@ -196,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4J2-Lm-7hY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-178.41726618705036" y="-854.13669064748206"/>
+            <point key="canvasLocation" x="-3336" y="361"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -216,7 +217,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-84" y="-37"/>
+            <point key="canvasLocation" x="-2559" y="-537"/>
         </scene>
     </scenes>
     <resources>

@@ -14,11 +14,12 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    @IBAction func ToStartButton(_ sender: Any) {
-        performSegue(withIdentifier: "ToStart", sender: self)
+    
+    @IBAction func backArrowPressed(_ sender: Any) {
+        performSegue(withIdentifier: "backToStartHome", sender: self)
     }
-   
-    }
+    
+    
+}
 
 
