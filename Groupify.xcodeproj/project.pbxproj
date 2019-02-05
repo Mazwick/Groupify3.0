@@ -15,6 +15,8 @@
 		6856AD7B21EF92A500F65CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6856AD7921EF92A500F65CD8 /* LaunchScreen.storyboard */; };
 		6856AD8621EF92A500F65CD8 /* Groupify3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856AD8521EF92A500F65CD8 /* Groupify3_0Tests.swift */; };
 		6856AD9121EF92A500F65CD8 /* Groupify3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856AD9021EF92A500F65CD8 /* Groupify3_0UITests.swift */; };
+		689EB58C2209F35700899539 /* ClassStudentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689EB58B2209F35700899539 /* ClassStudentClass.swift */; };
+		689EB58E2209F3B600899539 /* ClassAnyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689EB58D2209F3B600899539 /* ClassAnyClass.swift */; };
 		A233537221F0E98700BEA58E /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233537121F0E98600BEA58E /* NumberViewController.swift */; };
 		A233537421F0E9B600BEA58E /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233537321F0E9B600BEA58E /* PersonViewController.swift */; };
 		A233537621F0EA1C00BEA58E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233537521F0EA1C00BEA58E /* StartViewController.swift */; };
@@ -54,6 +56,8 @@
 		6856AD8C21EF92A500F65CD8 /* GroupifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6856AD9021EF92A500F65CD8 /* Groupify3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groupify3_0UITests.swift; sourceTree = "<group>"; };
 		6856AD9221EF92A500F65CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689EB58B2209F35700899539 /* ClassStudentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStudentClass.swift; sourceTree = "<group>"; };
+		689EB58D2209F3B600899539 /* ClassAnyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassAnyClass.swift; sourceTree = "<group>"; };
 		A233537121F0E98600BEA58E /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
 		A233537321F0E9B600BEA58E /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		A233537521F0EA1C00BEA58E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				A233537521F0EA1C00BEA58E /* StartViewController.swift */,
 				A27B0C16220785F20022C8AA /* CollectionViewCell.swift */,
 				6856AD7421EF92A300F65CD8 /* Main.storyboard */,
+				689EB58B2209F35700899539 /* ClassStudentClass.swift */,
+				689EB58D2209F3B600899539 /* ClassAnyClass.swift */,
 				6856AD7721EF92A500F65CD8 /* Assets.xcassets */,
 				6856AD7921EF92A500F65CD8 /* LaunchScreen.storyboard */,
 				6856AD7C21EF92A500F65CD8 /* Info.plist */,
@@ -280,8 +286,10 @@
 				A233537221F0E98700BEA58E /* NumberViewController.swift in Sources */,
 				A27B0C17220785F20022C8AA /* CollectionViewCell.swift in Sources */,
 				6856AD6F21EF92A300F65CD8 /* AppDelegate.swift in Sources */,
+				689EB58C2209F35700899539 /* ClassStudentClass.swift in Sources */,
 				6856AD7121EF92A300F65CD8 /* HomeViewController.swift in Sources */,
 				A233537621F0EA1C00BEA58E /* StartViewController.swift in Sources */,
+				689EB58E2209F3B600899539 /* ClassAnyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
