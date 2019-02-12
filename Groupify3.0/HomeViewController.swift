@@ -19,6 +19,9 @@ class HomeViewController: UIViewController {
         performSegue(withIdentifier: "backToStartHome", sender: self)
     }
     
+    @IBAction func ToCreateStudent(_ sender: Any) {
+        performSegue(withIdentifier: "ToNewStudent", sender: self)
+    }
     
 }
 
